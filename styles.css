@@ -3,5 +3,16 @@ body {
 }
 
 .d-block {
-  height: 60vh;
+  height: 45vh;
+  object-fit: cover;
+  filter: brightness(70%);
 }
+
+/* .middle-section {
+  display: grid;
+  align-items: center;
+  text-align: center;
+} */
+/* .footer-container {
+  height: 30px;
+} */
