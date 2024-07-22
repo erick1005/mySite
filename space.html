@@ -9,9 +9,183 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Space</title>
+  <style>
+
+    body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .full-page-container {
+            height: 100vh;
+            /* position: relative; Needed for pseudo-element */
+        }
+        .bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        filter: brightness(60%);
+    }
+
+        /* .full-page-container::before {
+        content: "";
+        background: url("images/earth-11015_1920.jpg") center/cover;
+        animation: rotate 20s linear infinite;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; 
+    } */
+
+    /* @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    } */
+  </style>
 </head>
 <body>
-  <h5>Space</h5>
+  <div class="full-page-container">
+    <img class="bg" src="images/earth-11015_1920.jpg" alt="">
+    <nav class="navbar navbar-light bg-dark collapse-md">
+      <div class="container-fluid">
+        <button type="button" class="btn btn-outline-primary my-3">
+            Did you know
+        </button>
+      </div>
+  
+    </nav>
+  
+    <!-- card-body -->
+  
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card bg-transparent opacity-80">
+            <div class="card-header bg-transparent"></div>
+            <div class="card-body">
+              <h5 class="card-title text-white">A Definition of Our Universe and Beyond</h5>
+              <p class="card-text text-white">Space, the final frontier! But what exactly is it? Let&#8217;s delve into the mysteries of space, from its vacuum nature to the mind-boggling distances that stretch beyond our planet.</p>
+            </div>
+            <div class="card-footer bg-transparent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- card-body-details -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="card bg-transparent opacity-80 text-white">
+            <div class="card-header bg-transparent">What Is Space?</div>
+              <div class="card-body">
+                <h5 class="card-title text-white">A Definition of Our Universe and Beyond</h5>
+                <p class="card-text text-white">Space is an almost perfect vacuum, nearly void of matter and with extremely low pressure. Unlike Earth&#8217;s atmosphere, where air molecules allow sound to travel, space lacks these molecules. As a result, sound doesn&#8217;t carry in space. Imagine shouting into the cosmic void, no one would hear you!
+
+                  But space isn&#8217;t entirely empty. Bits of gas, dust, and other matter float around, creating regions that are “emptier” and others that are more crowded.
+                </p> 
+
+                  <p>
+                    Let&#8217;s explore some key aspects of space:
+                  
+                  The Kármán Line: From our Earth-bound perspective, outer space begins approximately 62 miles (100 kilometers) above sea level. This imaginary boundary is known as the Kármán line. Above this altitude, there&#8217;s no appreciable air to breathe or scatter light. As you ascend, the sky transitions from blue to black because oxygen molecules become scarce.
+                  </p>
+
+                  <p>
+                    Measuring Space: Determining the size of space is challenging. We use “light-years” to measure vast distances—representing the distance light travels in a year (about 5.8 trillion miles or 9.3 trillion kilometers). Our telescopes allow us to chart galaxies reaching almost as far back as the Big Bang, which birthed our universe approximately 13.8 billion years ago. We can “see” into space at a distance of almost 13.8 billion light-years. However, the universe continues to expand, making precise measurements elusive. Moreover, we&#8217;re uncertain if our universe is the only one, hinting that space could be even more extensive.
+                  </p>
+
+                  <p>
+                    Space Radiation: Most of space is relatively empty, with only stray bits of dust and gas. When we send probes to distant planets or asteroids, they encounter no atmospheric drag. The vacuum environment means spacecraft don&#8217;t need aerodynamic shapes. The Apollo lunar lander, for instance, had a spider-like appearance to navigate the moon&#8217;s airless surface.
+                  Invisible Wonders
+                  </p>
+                  
+                  <h4 class="sub-title my-md-4">
+                    Beyond our visible spectrum lies a universe teeming with invisible phenomena:
+                  </h4>
+                 
+                  <p>
+                    Dark Matter and Energy: These mysterious substances make up most of the universe. Dark matter doesn&#8217;t emit light, and dark energy accelerates cosmic expansion.
+                  Black Holes: These gravitational monsters devour everything, including light. Their immense gravity warps space and time.
+                  </p>
+                    
+                  <p>
+                    Stars, Planets, Asteroids, and Comets: These celestial objects populate space. Stars shine due to nuclear fusion, planets orbit them, asteroids and comets roam, and collisions shape their destinies.
+                  </p>
+                  
+                  <p>
+                    Galaxies and Quasars: Galaxies—vast collections of stars, gas, and dust—form cosmic cities. Quasars, powered by supermassive black holes, emit intense radiation.
+                  </p>
+                  
+                
+              </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- fun facst section -->
+
+    
+    <div class="container">
+      <div class="col-md-12">
+        <div class="card custom-card text-white bg-transparent">
+            <div class="card-body">
+                <h5 class="card-title text-center">Fascinating space facts </h5>
+            </div>
+        </div>
+    </div>
+      <div class="row">
+          <div class="col-md-4 mb-4">
+              <div class="card custom-card text-white bg-transparent">
+                  <div class="card-body">
+                      <h5 class="card-title">Silent Vacuum</h5>
+                      <p class="card-text">Space is completely silent. There is no air or atmosphere, which means sound waves have no medium to travel through. So, even if you shout the loudest, no one will hear you scream in space! However, astronauts use radios to communicate because radio waves can still travel in the vacuum environment</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card custom-card text-white bg-transparent">
+                  <div class="card-body">
+                      <h5 class="card-title">Hottest Planet</h5>
+                      <p class="card-text">The hottest planet in our solar system is Venus. With an average surface temperature of about 232°F (450°C), Venus is scorching hot. Interestingly, it&#8217;s not the closest planet to the Sun—Mercury holds that title. Venus&#8217;s thick atmosphere traps heat, making it sizzle</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card custom-card text-white bg-transparent">
+                  <div class="card-body">
+                      <h5 class="card-title">Possible Life on Mars</h5>
+                      <p class="card-text">Mars, apart from Earth, is the planet most likely to be hospitable to life. In 1986, NASA found what they thought might be fossils of microscopic living things in a rock recovered from Mars</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="col-md-12">
+          <div class="card custom-card text-primary bg-dark">
+              <div class="card-body">
+                  <h5 class="card-title text-center">© 2024 Fascinating space facts </h5>
+              </div>
+          </div>
+      </div>
+      </div>
+    </footer>
+
+  </div>
+  
 </body>
 </html>
