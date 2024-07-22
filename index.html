@@ -1,262 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+<head>
 
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Your Personal Blog</title>
-  </head>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Knowledge</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Me</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                More
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Space</a></li>
-                <li><a class="dropdown-item" href="#">Nature</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">short-stories</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
 
-    <div
-      id="carouselExampleCaptions"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="images/space.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="images/IMG_20220410_175818_HDR.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="images/IMG_20220410_175535_HDR.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+  <style>
+    body {
+            margin: 0;
+            padding: 0;
+            background-image: url("images/earth-11015_1920.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+          
+          
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+
+    }
+
+  </style>
+
+</head>
+<body>
+  <nav class="navbar navbar-light bg-transparent shadow-none">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">
+        <img src="images/home.jpeg" alt="" width="50" class="d-inline-block align-text-top ">
+        <span class="txt text-white">Home</span>
+      </a>
     </div>
-
-    <div class="container">
-      <!-- Header -->
-      <header>
-        <h1>Your Personal Blog</h1>
-      </header>
+  </nav>
+  <div class="d-flex justify-content-center align-items-center text-primary" style="height: 100vh;">
+        <h1 class="fw-bolder">
+            Did you know.....
+        </h1>
     </div>
-
-    <main>
-      <!-- Main Content -->
-      <div class="container">
-        <!-- Blog Posts -->
-        <div class="blog-posts">
-          <!-- Example Post -->
-          <div class="post">
-            <h2>Space Exploration</h2>
-            <div class="box d-flex flex-md-column flex-lg-row justify-content-around">
-              <div><p>Discover the Wonders of the Cosmos.
-                In the Beginning…
-                In the primordial darkness, before time itself unfurled, the cosmos stirred—a symphony of particles, energies, and cosmic whispers. Imagine a canvas, vast and uncharted, waiting for the brushstrokes of creation.
-                </p>
-              </div>
-              <div class="Discover-image flex-rignt" >
-                <img class="img-1" src="images/discover.jpg" alt="">
-              </div>
-            </div>
-            <h6>The Birth of Stars</h6>
-            <p>
-              From cosmic nurseries, stellar cradles, emerged the firstborn: stars. They ignited like cosmic candles, their cores ablaze with nuclear fusion. Each star, a cosmic storyteller, etched its tale across the night sky. Some burned fiercely, casting their brilliance across eons; others whispered softly, their light a gentle echo of ancient dreams.
-            </p>
-
-            <h6>Nebulae: Cosmic Cauldrons</h6>
-            <p>
-              Within nebulae—cosmic cauldrons of gas and dust—new stars gestated. These stellar nurseries birthed not only stars but also planets, moons, and the raw materials of life. Imagine gossamer veils of hydrogen, punctuated by newborn suns—their warmth reaching across light-years to touch our eyes.
-            </p>
-
-            <h6>Galactic Waltz</h6>
-            <p>
-              Galaxies pirouetted through cosmic choreography. Spiral arms spun like cosmic cyclones, weaving stardust into tapestries of wonder. The Milky Way, our celestial home, swirled—a cosmic carousel where suns danced in eternal orbits. And beyond, other galaxies—Andromeda, the Triangulum Galaxy, and countless more—beckoned, their light traveling eons to reach our eyes.
-            </p>
-
-            <h6>Black Holes: Cosmic Abysses</h6>
-            <p>
-              In the heart of galaxies, hidden in shadows, lay black holes—cosmic abysses where gravity devoured even light. Imagine standing on the precipice of one, time bending around you, reality unravelling. Here, the laws of physics faltered, and the universe whispered its most enigmatic secrets
-            </p>
-
-            <h6>Cosmic Whispers</h6>
-            <p>
-              Cosmic microwave background radiation—the echo of the Big Bang—whispered to us across the cosmic expanse. It carried the memory of creation itself, a cosmic lullaby sung in wavelengths. Scientists listened, deciphering the ancient song, tracing the contours of the universe’s birth.
-            </p>
-
-            <h6>Exoplanets: Far-Off Worlds</h6>
-            <p>
-              Beyond our solar system, exoplanets danced—a celestial masquerade. Some clung to their parent stars, scorched deserts or oceanic havens. Others wandered alone, rogue planets adrift in cosmic solitude. Perhaps, on one of these distant shores, another sentient gaze turned skyward, pondering our existence.
-            </p>
-
-            <h6>Dark Matter and Dark Energy</h6>
-            <p>
-              Dark matter, elusive and unseen, shaped galaxies’ destiny. Its gravitational embrace held galaxies together, weaving cosmic tapestries. And dark energy? A cosmic repulsion, stretching the fabric of spacetime itself. We tread upon the cosmic tightrope, balancing between these cosmic forces.
-            </p>
-
-            <h6>Our Pale Blue Dot</h6>
-            <p>
-              Carl Sagan spoke of it—a photograph from Voyager 1. Earth, a pale blue dot suspended in a sunbeam, a mote of dust in the cosmic cathedral. On this fragile orb, we dance, dream, and seek meaning. Our stories, our art, our yearning—all woven into the cosmic fabric.
-            </p>
-
-            <h6>To the Stars</h6>
-            <p>
-              So, dear wanderer, lift your eyes. Gaze into the night sky, where constellations trace mythologies and meteors streak like cosmic sighs. The wonders of the cosmos await—an invitation to explore, to dream, to connect across the vastness. And remember: We are stardust, bound by gravity and wonder. In this cosmic ballet, we find our place—a fleeting note in the grand cosmic symphony.
-
-            </p>
-            
-            <a href="space.html">Read more</a>
-          </div>
-          <!-- Add more posts here -->
-        </div>
-
-        <!-- midbar -->
-        <aside class="middle-section centered-list">
-          <h3>Topics</h3>
-          <ul>
-            <li><a href="space.html">Space</a></li>
-            <li><a href="nature.html">Nature</a></li>
-            <li><a href="short-stories.html">Short Stories</a></li>
-            <!-- Add more topics -->
-          </ul>
-        </aside>
-      </div>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-      <div class="footer-container container-fluid bg-light " >
-        © 2024 Your Personal Blog</div>
-    </footer>
-  </body>
+</body>
 </html>

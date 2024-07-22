@@ -9,7 +9,7 @@ body {
 }
 
 .box {
-  border: red solid 1px;
+  border: none;
   /* display: flex; */
   column-gap: 5px;
   /* flex-direction: row; */
