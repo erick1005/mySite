@@ -12,7 +12,7 @@
   <title>Story of the Day</title>
   <style>
     body{
-      background-color: bisque;
+      background-color: rgb(247, 221, 198);
     }
 
     .back-img {
@@ -22,6 +22,34 @@
     .btn {
       border: none;
     }
+
+    .full-wide-div {
+      width: 100%;
+      /* background-color: aqua;
+      height: 2px; */
+    }
+
+    #content {
+            position: relative;
+        }
+
+        /* Style for the top left image */
+        #top-left-image {
+            position: absolute;
+            top: 0; 
+            left: 0; 
+        }
+
+        /* Style for the bottom right image */
+        #bottom-right-image {
+            position: absolute;
+            bottom: 0; /* Align to the bottom */
+            right: 0; /* Align to the right */
+        }
+
+        .book-img {
+          width: 50px;
+        }
   </style>
 </head>
 <body>
@@ -38,8 +66,61 @@
     </a>
     </div>
   </nav>
-  <h5>
-    short-stories
-  </h5>
+  <div class="full-wide-div" id="content">
+    <div class="container d-flex align-items-center justify-content-center m-4">
+      <div class="row">
+        <div class="col text-center">
+          <h4>
+            &#34;The Great Galactic Mix-Up&#34;
+          </h4>
+        </div>
+      </div>
+    </div>
+
+      <!-- paragrap -->
+      <div class="container d-flex align-items-center justify-content-center">
+      <div class="row">
+        <div class="col text-center">
+          <p>
+            Once upon a time, in a galaxy far, far away (okay, maybe just a few light-years down the cosmic highway), there existed an interstellar travel agency called “Stellar Expeditions.” Their motto? “We&#8217;ll take you places where no one can hear you scream—mostly because space is a vacuum, but also because our tour guides are excellent at distracting you with fun facts.”
+Our protagonist, Zara, was an Earthling with a penchant for adventure. She&#8217;d binge-watched every sci-fi show, read all the classic space novels, and even owned a T-shirt that said, “I&#8217;d rather be on Mars.” So when Stellar Expeditions announced a special deal—a one-way ticket to explore the Orion Nebula—Zara jumped at the chance.
+
+The spaceship, christened the “Cosmic Corgi” (because why not?), had all the amenities: a zero-gravity spa, a cosmic karaoke lounge, and a snack bar that served freeze-dried ice cream and alien-shaped pretzels. Zara settled into her cabin, excited to meet her fellow travelers.
+First up was Captain Quasar, a grizzled old space veteran with a twinkle in his eye and a penchant for puns. He greeted Zara with, “Welcome aboard, stardust wanderer! Our mission: to boldly go where no one has accidentally left their sunglasses before.”
+Zara nodded, trying to look space-savvy. “Got it. And what&#8217;s our destination?”
+“Ah, the Orion Nebula!” Captain Quasar exclaimed. “Home to swirling gas clouds, baby stars, and the occasional cosmic hiccup. But beware—the nebula has a reputation for playing pranks on unsuspecting tourists.”
+Zara raised an eyebrow. “Pranks? Like what?”
+“Well,” the captain leaned in, “last week, it turned a group of Venusians into sentient disco balls. They&#8217;re still grooving out there somewhere.”
+As the Cosmic Corgi zipped through the star-studded expanse, Zara met her fellow travelers. There was Grax, the gelatinous blob from Alpha Centauri who insisted on being called “Gelato.” Gelato loved Earth&#8217;s pop culture and had a collection of vintage vinyl records from the '70s. Zara and Gelato bonded over a shared love for David Bowie.
+Then there was Luna, a moon rock with an attitude. Luna had seen it all—meteor showers, solar eclipses, and one particularly rowdy asteroid party. She regaled Zara with tales of lunar mischief, like the time she photobombed the Apollo 11 astronauts.
+
+But the real surprise came when they reached the Orion Nebula. Instead of the expected celestial beauty, they found a giant billboard floating in space. It read:
+
+“Welcome to the Andromeda Diner! Home of the Universe&#8217;s Best Space Burgers. Try our Black Hole Fries!”
+
+Zara blinked. “Is this a joke?”
+
+Captain Quasar scratched his head. “Well, the nebula does have a sense of humor. Maybe it&#8217;s trying to diversify its portfolio.”
+And so, the Cosmic Corgi docked at the Andromeda Diner. Zara ordered a Milky Way Milkshake (with extra stardust sprinkles), and Gelato tried the Nebula Nachos. Luna, ever the rock, just sat there, unimpressed.
+As they left the diner, Zara noticed a sign: “Lost & Found: Missing Constellations. Reward: One wish upon a falling star.”
+She grinned. “Captain, let&#8217;s find Orion&#8217;s belt and wish for a cosmic adventure!”
+
+Captain Quasar winked. “Why not? Just remember, in space, even wishes come with a twist.”
+
+And so, with bellies full of space burgers and hearts full of wonder, they set off—Zara, Gelato, Luna, and the Cosmic Corgi—ready for whatever the universe threw their way.
+
+And that, my friend, is how Zara accidentally became the first human to dance with sentient disco balls in the Orion Nebula. As for Luna, well, she still claims she invented moonwalking. And so, dear reader, the next time you look up at the night sky, remember: Somewhere out there, the Andromeda Diner awaits, serving up cosmic cuisine and a side of intergalactic giggles.
+
+          </p>
+          
+          <!-- Top left corner image -->
+          <img class="book-img d-none d-md-block " id="top-left-image" src="images/book-icon-png-25.jpg" alt="Top Left Image">
+
+        <!-- Bottom right corner image -->
+        <img class="book-img d-none d-md-block" id="bottom-right-image" src="images/book-icon-png-25.jpg" alt="Bottom Right Image">
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
