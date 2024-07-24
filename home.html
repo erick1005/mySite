@@ -22,7 +22,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <!-- <nav class="navbar navbar-expand-md navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Knowledge</a>
         <button
@@ -80,8 +80,60 @@
           </form>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Knowledge</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+          </ul>
+          <!-- Move "Me" and "More" to the right -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="aboutMe.html">Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="space.html">Space</a></li>
+                <li><a class="dropdown-item" href="nature.html">Nature</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="short-stories.html">Short Stories</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
     <div
       id="carouselExampleCaptions"
       class="carousel slide"
@@ -128,8 +180,8 @@
             alt="..."
           />
           <div class="carousel-caption d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5>Diverse Plant Kingdom</h5>
+            <p>There are approximately 320,000 species of plants found across all continents.</p>
           </div>
         </div>
         <div class="carousel-item">
@@ -139,8 +191,8 @@
             alt="..."
           />
           <div class="carousel-caption d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>Colorful Transformations</h5>
+            <p>You know, leaves change color during the seasons.</p>
           </div>
         </div>
       </div>
@@ -258,5 +310,6 @@
       <div class="footer-container container-fluid text-center" >
         © 2024 Personal Blog</div>
     </footer>
+    <script src="web.js"></script>
   </body>
 </html>
