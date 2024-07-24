@@ -57,12 +57,31 @@
     <img class="bg" src="images/earth-11015_1920.jpg" alt="">
     <nav class="navbar navbar-light bg-dark collapse-md">
       <div class="container-fluid">
-        <button type="button" class="btn btn-outline-primary my-3">
+        <button type="button" class="btn btn-outline-primary my-3" data-bs-toggle="modal" data-bs-target="#Modal">
             Did you know
         </button>
       </div>
   
     </nav>
+
+    <!-- Modal -->
+<div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLabel">Fascinating fact</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        If you scream in space, no one can hear you.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
   
     <!-- card-body -->
   
@@ -172,6 +191,7 @@
           </div>
       </div>
     </div>
+
 
     <footer>
       <div class="container">
