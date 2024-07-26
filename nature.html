@@ -22,10 +22,110 @@
     </div>
   </nav>
 
-  <div id="video-container">
-    <video autoplay muted loop id="myVideo">
-      <source src="videos/nature.mp4" type="video/mp4">
-    </video>
+  <div id="background-container">
+    <div id="video-container">
+      <video autoplay muted loop id="myVideo">
+        <source src="videos/nature.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6 d-grid gap-2 bg-transparent py-2">
+        <button type="button" class="btn btn-success text-nowrap " data-bs-toggle="modal" data-bs-target="#Wildlife">Wildlife Adventures</button>
+        <button type="button" class="btn btn-success text-nowrap" data-bs-toggle="modal" data-bs-target="#nature">Nature Photography</button>
+        <button type="button" class="btn btn-success text-nowrap " data-bs-toggle="modal" data-bs-target="#flora-fauna">Local Flora and Fauna</button>
+        <button type="button" class="btn btn-success text-nowrap" data-bs-toggle="modal" data-bs-target="#poetry">Nature Poetry</button>
+      </div>
+      <div class="col bg-info">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- nature modals -->
+
+  <div class="modal fade" id="Wildlife" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-success" id="staticBackdropLabel ">The Great Migration: A Natural Spectacle</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Picture this: a vast, pulsating river of life, millions of hooves pounding the earth, dust rising, and the air filled with anticipation. This is the Great Migration, a timeless journey that plays out across the savannahs and grasslands of Tanzania and Kenya. It&#8217;s like nature&#8217;s blockbuster movie, complete with drama, suspense, and a cast of millions.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="nature" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-success" id="staticBackdropLabel">Don't just look, see</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Nature photography is a captivating art form that allows us to capture the beauty, drama, and intricacies of the natural world. Whether it&#8217;s vast landscapes, delicate flowers, or elusive wildlife, photographers have a way of revealing nature&#8217;s secrets through their lenses.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="flora-fauna" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-success" id="staticBackdropLabel">Flora and Fauna: Guardians of Earth&#8217;s Symphony</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Flora encompasses all plant life on Earth, the green architects that harness sunlight through photosynthesis, shape ecosystems, and provide oxygen. From towering sequoias to delicate wildflowers, they weave the fabric of our landscapes. Meanwhile, fauna the wild symphony, includes animals of every size and shape. From microscopic plankton to majestic elephants, they adapt, migrate, and play vital roles in maintaining ecological balance. Together, flora and fauna create the intricate dance of life, reminding us of our shared responsibility as stewards of this planet</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="poetry" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-success" id="staticBackdropLabel">Whispers of the Forest</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>In the heart of emerald woods, where shadows play, The ancient trees lean close, their secrets tucked away. They murmur tales of seasons of frost-kissed morns, And how the wind weaves sonnets through branches, reborn.
+
+          </p>
+          <p>Beneath their leafy canopy, mossclad and wise, The earth cradles stories in its cool, dark eyes. Each blade of grass, a poet penning verses unseen, In dewdrops, syllables glisten ashimmering dream.</p>
+
+          <p>The river joins the chorus, its liquid song untamed, Carving valleys through time, etching memories unnamed. And the birds? Ah, they&#8217;re the troubadours of dawn, Their melodies spun from sunbeams, as day breaks upon.</p>
+
+          <p>See the butterflies waltz, their fragile wings aglow, Painting rainbows on petals their ballet in the flow. And the fox, the elusive poet of twilight&#8217;s hush, Leaves paw prints on the moss, weaving secrets in the brush.</p>
+            
+          <p>So let us listen, my friend, to nature&#8217;s whispered rhyme, For in every rustling leaf, there&#8217;s a heartbeat achime. And as we wander, hand in hand, through this wild refrain, We become stardust and dewdrops apart of nature&#8217;s eternal chain.</p>  
+            
+            
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
   </div>
   
 </body>
